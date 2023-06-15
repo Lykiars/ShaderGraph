@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Test
-  m_Shader: {fileID: -6465566751694194690, guid: b49bddcfe123e6f49bc0c9b3ed661eba, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 2d0172d58ad8e224abadac47178510f1, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -50,6 +50,9 @@ Material:
     - _BUILTIN_ZTest: 4
     - _BUILTIN_ZWrite: 1
     - _BUILTIN_ZWriteControl: 0
+    - _Float_Attenutation_StrenghtofTheLight: 0.24
     m_Colors:
+    - _Color: {r: 0.9056604, g: 0.4825171, b: 0.06322531, a: 0}
     - _MainColor: {r: 1, g: 0.582, b: 0.533, a: 1}
+    - _Vector3_PostionofLightSource: {r: 5, g: 5, b: 5, a: 0}
   m_BuildTextureStacks: []
