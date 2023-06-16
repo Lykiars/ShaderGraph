@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Test
-  m_Shader: {fileID: -6465566751694194690, guid: 2d0172d58ad8e224abadac47178510f1, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 5bd85ee8d69f0f643ad1e756eea366cb, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -39,6 +39,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Attenuation: 0.21
     - _BUILTIN_AlphaClip: 0
     - _BUILTIN_Blend: 0
     - _BUILTIN_CullMode: 2
@@ -51,8 +52,10 @@ Material:
     - _BUILTIN_ZWrite: 1
     - _BUILTIN_ZWriteControl: 0
     - _Float_Attenutation_StrenghtofTheLight: 0.24
+    - _Specular: 3.11
     m_Colors:
-    - _Color: {r: 0.9056604, g: 0.4825171, b: 0.06322531, a: 0}
+    - _Color: {r: 0.75024855, g: 0.06274509, b: 0.90588236, a: 0}
+    - _Light: {r: 0.54, g: 5, b: 5, a: 0}
     - _MainColor: {r: 1, g: 0.582, b: 0.533, a: 1}
     - _Vector3_PostionofLightSource: {r: 5, g: 5, b: 5, a: 0}
   m_BuildTextureStacks: []
