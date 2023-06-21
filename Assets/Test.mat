@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Test
-  m_Shader: {fileID: -6465566751694194690, guid: 13e995f4c3d5de0448b0b7e7649cc520, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 45d45a5bdb2066e42affa503b8db6a3c, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -63,8 +63,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOIntensity: 1.06
-    - _AlbedoIntensity: 0
+    - _AOIntensity: 0.79
+    - _AlbedoIntensity: 1
     - _Attenuation: 0.21
     - _BUILTIN_AlphaClip: 0
     - _BUILTIN_Blend: 0
@@ -80,8 +80,8 @@ Material:
     - _EmmisionIntensity: 1
     - _Float_Attenutation_StrenghtofTheLight: 0.24
     - _Intensity: 1.25
-    - _MetallicIntensity: 1.05
-    - _SmoothnessIntensity: 0.98
+    - _MetallicIntensity: 0.71
+    - _SmoothnessIntensity: 1
     - _Specular: 3.11
     m_Colors:
     - _Color: {r: 0.75024855, g: 0.06274509, b: 0.90588236, a: 0}
