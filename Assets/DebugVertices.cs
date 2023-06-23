@@ -16,6 +16,10 @@ public class DebugVertices : MonoBehaviour {
 			vertices = mesh.vertices;
 		}
 		foreach (Vector3 v in vertices)
-            UnityEditor.Handles.Label(transform.position + v, "v: " + v.ToString());
+		{
+			string vert = "v: " + v.ToString();
+		    string worldVert = "wv: " + (transform.position + v).ToString();
+			UnityEditor.Handles.Label(transform.position + v, vert + worldVert);
+		}
 	}
 }

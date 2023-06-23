@@ -64,6 +64,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AOIntensity: 0.79
+    - _Add: 0.2
     - _AlbedoIntensity: 1
     - _Attenuation: 0.21
     - _BUILTIN_AlphaClip: 0
@@ -78,16 +79,22 @@ Material:
     - _BUILTIN_ZWrite: 1
     - _BUILTIN_ZWriteControl: 0
     - _EmmisionIntensity: 1
+    - _Float: 1
     - _Float_Attenutation_StrenghtofTheLight: 0.24
     - _Intensity: 1.25
     - _MetallicIntensity: 0.71
+    - _Scale: 0.5
     - _SmoothnessIntensity: 1
     - _Specular: 3.11
+    - _Value: 0.91
+    - _reewgyh: 0
     m_Colors:
+    - _BotColor: {r: 0, g: 0.44385004, b: 1, a: 0}
     - _Color: {r: 0.75024855, g: 0.06274509, b: 0.90588236, a: 0}
     - _EmissionColor: {r: 0.4806345, g: 0.9245283, b: 0.1081523, a: 0}
     - _Light: {r: 0.54, g: 5, b: 5, a: 0}
     - _MainColor: {r: 1, g: 0.582, b: 0.533, a: 1}
+    - _TopColor: {r: 0.51543176, g: 1, b: 0, a: 0}
     - _Vector3: {r: 0, g: 0, b: 0, a: 0}
     - _Vector3_PostionofLightSource: {r: 5, g: 5, b: 5, a: 0}
   m_BuildTextureStacks: []
